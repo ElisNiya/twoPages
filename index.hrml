@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=#, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <h1>The box model, box-sizing & box-shadow</h1>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h3>Exercise 1</h3>
+                <div class="bigbox">
+                    <div class="box">
+                        <div class="smallbox"> </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="points ">
+                        <span class="circle content"></span>
+                        <span>Content</span>
+                    </div>
+                    <div class="points ">
+                        <span class="circle padding"></span>
+                        <span>Padding</span>
+                    </div>
+                    <div class="points ">
+                        <span class="circle border"></span>
+                        <span>Border</span>
+                    </div>
+                    <div class="points ">
+                        <span class="circle margin"></span>
+                        <span>Margin</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+        <section>
+            <div>
+                <h3>Exercise 2</h3>
+                <h5>no border on these boxes.</h5>
+            <div class="rectangle">
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div>
+                <h5> 1px border</h5>
+            <div class="rectangle">
+                <div class="graybox wborder nextline"></div>
+                <div class="graybox wborder nextline"></div>
+                <div class="graybox wborder nextline"></div>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div>
+            
+                <h5> 1px border but on the same line.</h5>
+            <div class="rectangle">
+                <div class="graybox wborder borderbox"></div>
+                <div class="graybox wborder borderbox"></div>
+                <div class="graybox wborder borderbox"></div>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
